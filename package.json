@@ -1,0 +1,13 @@
+{
+  "name": "acacia-wisconsin-site",
+  "private": true,
+  "scripts": {
+    "test": "npm run test:unit && npm run test:e2e",
+    "test:unit": "node --test test/unit/menu-toggle.test.js",
+    "test:e2e": "playwright test"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.57.0",
+    "serve": "^14.2.4"
+  }
+}
