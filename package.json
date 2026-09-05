@@ -1,7 +1,0 @@
-{
-  "name": "acacia-wisconsin-site",
-  "private": true,
-  "scripts": {
-    "test": "node --test"
-  }
-}
